@@ -9,16 +9,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server . --port 9000"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sef-global/sef-site.git"
-  },
-  "author": "Sustainable Education Foundation",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sef-global/sef-site/issues"
-  },
-  "homepage": "https://sefglobal.org/"
+    "start": "http-server . --port 9000",
+    "build": "http-server"
+  }
 }
